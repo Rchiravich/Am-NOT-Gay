@@ -1,0 +1,63 @@
+
+.question h4{
+  margin-bottom: 0;
+  text-align: center;
+  font-size: 30px;
+  line-height: 1.5;
+  
+  
+}
+
+#Moving {
+  width: 45px;
+  padding: 5px;
+  border: 3px solid #ccc;
+  border-radius: 3px;
+  position: absolute;
+  left: 55%;
+  top: 20%;
+  transform: translate(-50%, -50%);
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+
+#Answer {
+  width: 45px;
+  padding: 5px;
+  border: 3px solid #ccc;
+  border-radius: 3px;
+  position: absolute;
+  left: 45%;
+  top: 20%;
+  transform: translate(-50%, -50%);
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+#Answer:hover{
+  background-color: #ac1d2b;
+}
+
+#Reset{
+  width: 45px;
+  padding: 5px;
+  border: 3px solid #ccc;
+  border-radius: 3px;
+  position: absolute;
+  left: 50%;
+  top: 30%;
+  transform: translate(-50%, -50%);
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+#Reset:hover{
+  background-color: #ac1d2b;
+}
